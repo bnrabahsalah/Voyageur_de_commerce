@@ -1,3 +1,6 @@
+import math
+
+
 class Ville:
     def __init__(self, num, x, y):
         self.num = num
@@ -6,7 +9,7 @@ class Ville:
 
 
 def distance(ville1, ville2):
-    return abs(ville1.x - ville2.x) + abs(ville1.y - ville2.y)
+    return math.sqrt((ville1.x - ville2.x) ** 2 + (ville1.y - ville2.y) ** 2)
 
 
 def afficher_ville(ville):
