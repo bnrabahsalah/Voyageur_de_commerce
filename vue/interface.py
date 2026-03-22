@@ -30,7 +30,7 @@ def dessiner(canvas, villes, chemin=None, couleur_route="blue"):
 # ── Fenêtre principale ────────────────────────────────────────────────────────
 root = tk.Tk()
 root.title("Voyageur de Commerce — Algorithme Génétique")
-root.geometry("800x580")
+root.geometry("700x580")
 root.resizable(True, True)
 
 # ── Panneau de contrôle ───────────────────────────────────────────────────────

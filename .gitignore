@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Fichiers générés
+*.pdf
+*.png
+*.jpg
+
+# Matplotlib cache
+.matplotlib/
+
+# PyInstaller
+*.spec
